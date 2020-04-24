@@ -1,0 +1,119 @@
+.simulator {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+  }
+
+  .doors {
+    margin:10px 2% 0 2%;
+    display: flex;
+    justify-content:center;
+    width: 50%;
+  }
+
+  .doorSection {
+    flex-grow:1;
+    text-align:center;
+  }
+
+  .fade {
+    opacity:.25;
+  }
+  
+  .door {
+    border-radius:10px;
+    min-height:150px;
+    width:150px;
+    margin:0 auto;
+    border: white solid;
+  }
+
+  .Car {
+    background-image: url(../Images/Car1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .Goat {
+    background-image: url(../Images/Goat1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .doorSpan {
+    display:block;
+    padding-top:20px;
+    font-size:25px;
+    line-height:80%;
+  }
+
+  .arrowSection {
+    height:30px;
+  }
+
+  .arrow {
+    display:inline-block;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 24px solid white;
+  }
+  
+  .controls {
+    width: 50%;
+  }
+  .controlsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto 0 auto;
+  }
+  .controlSection {
+    flex-grow:1;
+    display:inline-block;
+    justify-content:center;
+    padding:0 5%;
+    width:40%;
+  }
+  .controlHeading {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 60px;
+  }
+  
+  .controlSection input[type='input'] {
+    text-align:center;
+    width:50px;
+  }
+
+  .controlSection input[type='checkbox'] {
+    text-align:center;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    cursor: pointer;
+  }
+  
+  .Button {
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+    background-color:white;
+    margin-top: 15px;
+    border: black solid;
+    cursor: pointer;
+  }
+  
+  .controls .speed {
+    width:40%;
+    cursor: pointer;
+  }
+
+  .logo {
+    height: 75px;
+    width: 160px;
+  }

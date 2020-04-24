@@ -1,0 +1,95 @@
+.results {
+    padding-top:25px;
+  }
+  
+  .heading {
+    display: flex;
+    width: 80%;
+    margin:0 auto;
+  }
+
+  .heading > div {
+      width: 50%;
+  }
+
+  .headingWins {
+    background-color:#22C822;
+    font-size: large;
+    margin:6px auto 0 auto;
+    padding:0 10px;
+    border-radius:5px;
+    font-weight: bold;
+    height: 30px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headingLosses {
+    background-color:#FA2B2B;
+    font-size: large;
+    margin:6px auto 0 auto;
+    padding:0 10px;
+    border-radius:5px;
+    font-weight: bold;
+    height: 30px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roundsSection {
+    position:relative;
+    width:80%;
+    margin:0 auto;
+  }
+  
+  .rounds {
+    min-width:400px;
+    margin:0 auto;
+    padding-top:40px;
+    font-size:10px;
+    position:relative;
+  }
+
+  .round {
+    margin-bottom:20px;
+  }
+
+  .round > div > div {
+    background:#d69200;
+    line-height:150%;
+    position:relative;
+    border: white solid;
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .label {
+    overflow:hidden;
+  }
+
+  .wins {
+    position:absolute;
+    float:left;
+    left:-50px;
+    top:0;
+  }
+
+  .losses {
+    position:absolute;
+    float:right;
+    right:-50px;
+    top:0;
+  }
+  
+  .hide {
+    display:none;
+  }
+  

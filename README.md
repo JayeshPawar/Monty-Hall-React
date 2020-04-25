@@ -1,3 +1,49 @@
+# Monty Hall Problem
+
+This app is developed using React.
+All logic is handled in react components. No Backend logic required.
+
+Extrnal component used : **rc-slider**
+
+## Guidlines :
+
+### Simulator Controls :
+1. Rounds : You can enter number of rounds of your choice . Default is 10.
+2. Switch : You can choose to Switch door for all rounds by clicking checkbox.
+3. Speed  : You can adjust speed of simulator rounds.
+4. Run    : Run the simulation.
+
+### Results : 
+You can check the percentage wins & losses of each simulation here.
+
+### App Structure :
+
+● src
+
++---● Componentes
+
+|     +--● Home.Component.js
+
+|     +--● Simulator.Component.js
+
+|     +--● Results.Component.js
+
++---● CSS
+
+|     +--● simulator.css
+
+|     +--● result.css
+
++---● Images
+
+|
+
+|--index.css
+
+|--index.js
+
+############################################################################################
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
